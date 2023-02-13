@@ -35,7 +35,7 @@ app.get("/api/shorturl/:number", function (req, res) {
     if (result.length > 0) {
       res.redirect('http://' + result[0].url);
     } else {
-      res.sendFile(process.cwd() + '/views/index.html');
+      res.send("Sorry! Don't recognise that shorturl...");
     }
   })
 });
