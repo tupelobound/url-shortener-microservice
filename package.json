@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tupelobound/url-shortener-microservice#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
   }
 }
